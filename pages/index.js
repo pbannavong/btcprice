@@ -10,6 +10,10 @@ function Index(props) {
         <h1>Welcome to BTC Price Tracker 🐼🐼🐼</h1>
         <p>Check current Bitcoin price:</p>
         <Prices bpi={props.bpi} />
+        <br />
+        <br />
+        <br />
+        Website created utilizing Coindesk API and Next.js framework.
       </div>
     </Layout>
   )
