@@ -8,10 +8,11 @@ function Index(props) {
     <Layout>
       <div>
         <h1>Welcome to BTC Price</h1>
+        <p>Check current bitcoin price.</p>
         <Prices bpi={props.bpi} />
       </div>
     </Layout>
-  );
+  )
 }
 
 Index.getInitialProps = async function() {
